@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+}
+
+#title{
+    margin-left: 35%;
+}
+
+#chart{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#form{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+#form *{
+    margin-top: 1%;
+}
+
+#btnSubmit{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    color: #fff;
+    background-color: darkcyan;
+    width: 15%;
+    height: 30px;
+    border: none;
+}

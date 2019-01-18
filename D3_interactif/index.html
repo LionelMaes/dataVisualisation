@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<h1 id="title">Bitcoin value in Euro</h1>
+<svg class="bar-chart"></svg>
+
+<form id="form">
+    <label for="beginDate">Enter begin datum</label>
+    <input type="date" id="beginDate" name="beginDate"/>
+    <br>
+    <label for="endDate">Enter end datum</label>
+    <input type="date" id="endDate" name="endDate"/>
+    <br>
+    <label for="currency">Select currency: </label>
+    <select id="currency">
+        <option value="EUR"> Euro (€)</option>
+        <option value="USD">Dollar ($)</option>
+        <option value="JPY">Yen (¥)</option>
+        <option value="SHP">Pound (£)</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit" id="btnSubmit">
+</form>
+
+<div id="err"></div>
+
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
